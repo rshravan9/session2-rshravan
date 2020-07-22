@@ -6,7 +6,7 @@ import time
 # Eventually memory will be released, but that is currently not happening immediately.
 # We have added a function called "clear_memory" but it is not able to do it's job. Fix it. 
 # Refer to test_clear_memory Test in test_session2.py to see how we're crudely finding that
-# this code is sub-optimal.
+# this code is sub-optimal. Test
 class Something(object):
 
     def __init__(self):
